@@ -1,0 +1,104 @@
+
+.myHome {
+  padding-top: 20%;
+}
+
+.titoloHome{
+    font-family: "Righteous", cursive;
+    margin: 10% 22%;
+    font-size: 5rem;
+    background: -webkit-linear-gradient(
+      0deg,
+      rgba(162, 217, 255, 1) 0%,
+      rgba(153, 114, 255, 1) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.205);
+    z-index: 2;
+    position: absolute;
+    z-index: 2;
+}
+
+.welcome {
+  position: relative;
+  z-index: 2;
+  margin-top: 5%;
+  background-color: rgba(255, 255, 255, 0.541);
+  padding: 1%;
+  font-family: 'Righteous', cursive;
+  color: #333;
+}
+
+.immagine {
+  margin: auto;
+}
+
+.testo {
+  text-align: justify;
+  padding: 1%;
+  width: 60%;
+  margin-left: 40%;
+}
+
+
+span {
+  cursor: pointer;
+  text-shadow: 1px 1px 1px black;
+  color: #9972ff;
+}
+
+p:last-child {
+  font-size: 0.8rem;
+  margin-top: -1rem;
+}
+
+p:last-child span {
+  color: #37a5f3;
+  font-size: 1rem;
+}
+
+.cartolina {
+  width: 100%;
+  margin: 2rem 0;
+  background: #a2d9ff;
+  box-shadow: 0px 0px 15px #9a72ff9c;
+  padding: 3%;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.cartolina:hover {
+  width: 110%;
+  color:rgba(153, 114, 255, 1);
+}
+
+
+.animated {
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes shake {
+  0%, 100% {transform: translateX(0) rotate(1deg);}
+  10%, 30%, 50%, 70%, 90% {transform: translateX(-10px) rotate(6deg);}
+  20%, 40%, 60%, 80% {transform: translateX(10px) rotate(-6deg);}
+}
+
+@keyframes shake {
+  0%, 100% {transform: translateX(0) rotate(1deg);}
+  10%, 30%, 50%, 70%, 90% {transform: translateX(-10px) rotate(6deg);}
+  20%, 40%, 60%, 80% {transform: translateX(10px) rotate(-6deg);}
+}
+
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+

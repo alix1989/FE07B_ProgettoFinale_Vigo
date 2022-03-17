@@ -1,0 +1,24 @@
+<div class="container">
+  <h1 class="titoloHome text-center shake-little">gestionale SRL</h1>
+  <div class="myHome row">
+    <div class="text-center col-md-6">
+      <div  class="welcome" *ngIf="!isLoggedUser()"><h2>Benvenuto! Per procedere:</h2>
+        <div class="cartolina mt-5" [routerLink]="['/login']"><i class="bi bi-door-open"></i> login</div>
+        <div class="cartolina mt-3"[routerLink]="['/registrati']"><i class="bi bi-file-earmark-plus"></i> registrati</div>
+    </div>
+
+
+      <div  class="welcome mb-4" *ngIf="isLoggedUser()">
+
+      <div class="cartolina mt-3" [routerLink]="['/dettagliCliente']"><i class="bi bi-person-plus"></i> aggiungi cliente</div>
+      <div class="cartolina mt-3" [routerLink]="['/fatture']"><i class="bi bi-file-earmark-plus"></i> consulta fatture</div>
+      <div class="cartolina mt-3" [routerLink]="['/registrati']"><i class="bi bi-plus-circle"></i> aggiungi utente</div>
+
+      </div>
+
+</div>
+      <div class="animated shake immagine col-md-6">
+        <img src="./assets/fatture.png" alt="Fatture" style="width: 100%">
+      </div>
+    </div>
+  </div>
