@@ -44,9 +44,9 @@ import { ClientService } from '../services/client.service';
             </li>
             <a
               class="btn myBtn ms-3"
-              [routerLink]="['/dettagliCliente']"
+              [routerLink]="['/registrati']"
               routerLinkActive="active"
-              title="Nuovo cliente"
+              title="Nuovo utente"
               ><i class="bi bi-person-plus"></i>
             </a>
           </ul>
