@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  pathApi: 'http://epicode.online/epicodebeservice_v2'
 };
