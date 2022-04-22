@@ -19,7 +19,7 @@ export class MyHttpInterceptor implements HttpInterceptor {
       headers: req.headers.set(
           'Authorization',
           'Bearer ' +
-            'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY0Nzk2NzIxOSwiZXhwIjoxNjQ4ODMxMjE5fQ.QxlIQapVl1gaOu8mILWU7zFcwowNuVMh9CmdUHoJOl386Ex_CwCGCx0T05t1L5nXuiqLE0P2VPB8nc2ZX54o7A'
+            'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY0OTg1OTA2NywiZXhwIjoxNjUyMDA2NTUxfQ.NHq0u9QOpiDzPLicuTIRaFKK-Fupuu5sSBvaP-u6b6HKnkvOm-iERow-eYWDvVbcWFyFGHRh6TV5KLXyog_kJQ'
         )
         .set('X-TENANT-ID', 'fe_0721b'),
     });
